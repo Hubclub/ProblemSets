@@ -50,7 +50,7 @@ public class DisjointSet {
 	        father.set(rootX, rootY);
 	    else
 	    father.set(rootX, rootY);
-	    rank.set(rootY, new Integer(rank.get(rootY))); //just another basic increment in java
+	    rank.set(rootY, new Integer(rank.get(rootY) + 1)); //just another basic increment in java
 		
 	}
 	
